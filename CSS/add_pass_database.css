@@ -1,0 +1,18 @@
+body{
+	background: url("../Images/blur_22834.jpg") no-repeat;
+	background-size: cover;
+}
+.txt{
+position: absolute;
+top: 200px;
+left: 70px;
+color: #6ac045;
+font-family: Helvetica Neue,Arial;
+font-size: 15pt;
+font-weight: bold;
+font-style: oblique;
+color: #676767;
+}
+p{
+	color: #6ac045;
+}

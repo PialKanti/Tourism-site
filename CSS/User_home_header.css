@@ -1,0 +1,245 @@
+.header_small{
+    background-color: #1F1F1F;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+}
+#welcome_msg{
+    position: absolute;
+    top: 3px;
+    left:200px;
+    color: white;
+    font-size: 12pt;
+    font-style: oblique;
+    font-family: cursive;
+    word-spacing: 5px;
+}
+#User{
+    position: absolute;
+    top: 3px;
+    right:300px;
+}
+#User a:link,#User a:visited,#User a:hover{
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    font-style: oblique;
+    font-family: cursive;
+}
+#logout{
+    position: absolute;
+    top:3px;
+    right:100px;
+    color: red;
+
+}
+#logout a:link,#logout a:visited,#logout a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 11pt;
+    font-style: oblique;
+    font-family: cursive;
+}
+#header{
+    position: absolute;
+    background-color:#e7ecf2;
+    height: 100px;
+    top: 35px;
+    left: 0px;
+    width:100%
+}
+#H1{
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+#H2{
+    position: absolute;
+     top: 30px;
+    left:140px;
+}
+h1{
+    font-family: cooper black;
+    font-size: 20pt;
+    color:#1F1F1F;
+    font-style: oblique;
+}
+h2{
+    font-family: cooper black;
+    font-size: 16pt;
+    font-family: cursive;
+    color: #00CC66;
+    font-style: oblique;
+}
+#img1{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 11pt;
+    font-style: oblique;
+    font-family: cursive;
+}
+a:visited{
+    font-family: Elephant;
+    color: white;
+    text-decoration: none;
+}
+/*nav{
+    position: relative;
+    display: table;
+}
+nav.nav_tab{
+    position: absolute;
+    top: 20px;
+    left:640px;
+    height: 50px;
+    width:700px;
+    border: 1px solid #00CC66;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    word-spacing: 2px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    list-style:none;
+    float: left;
+    border-right: 2px solid #ddd;
+    position: relative;
+    top:5px;
+    left: 20px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    display: block;
+    text-decoration: none;
+    padding: 10px 17px;
+    border-right: 5px 8px solid #d5dce4;
+    color: #33557c;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #66E0A3;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+nav ul li:last-child a:link,
+nav ul li:last-child a:visited {
+    border-right: none;
+}
+*/
+
+
+
+.nav{
+    position: absolute;
+    top: 20px;
+    left:640px;
+    height: 50px;
+    width:700px;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #aaa;
+  color: #444;
+}
+
+/* Sub Menus */
+.nav li li {
+  font-size: .8em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+  .nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .nav a {
+    border-bottom: none;
+  }
+
+  .nav > ul > li {
+    text-align: center;
+  }
+
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+
+  /* Sub Menus */
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  .nav li:hover ul {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav li ul li {
+    display: block;
+  }
+}
+

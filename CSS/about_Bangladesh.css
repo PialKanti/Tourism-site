@@ -1,0 +1,224 @@
+#background{
+	position:fixed;
+top: 0;
+left: 0;
+width: 100%;
+ height: 100%;
+
+}
+.heading{
+	position: relative;
+top: 150px;
+left: 70px;
+color:rgb(43,43,43);
+font-style: none;
+font-family: Georgia,Times,serif;
+}
+.hr1{
+position: relative;
+top: 150px;
+left: 0px;
+color: bisque;
+width: 90%;
+height: 0.2px;
+opacity: 0.8;
+}
+.name{
+	position: relative;
+top: 180px;
+left: 70px;
+color: rgb(66,133,244);
+font-family: Georgia,Times,serif;
+font-style: normal;
+}
+#flag{
+position: relative;
+top: 120px;
+left: 900px;
+}
+#flag_img{
+height: 180px;
+width: 180px;
+}
+.cap1{
+	padding-left: 70px;
+	padding-top: -10px;
+	font-family: cooper black;
+}
+#emblem{
+position: relative;
+top: -90px;
+left: 1120px;
+}
+#emblem_img{
+	height: 160px;
+width: 150px;
+
+}
+.cap2{
+	padding-left: 40px;
+	padding-top: 10px;
+	font-family: cooper black;
+}
+.light{
+	font-size: 13pt;
+	font-family: cursive;
+	color: black;
+	padding-right: 15px;
+}
+.ban_name{
+	position: relative;
+top: -255px;
+left: 130px;
+color: black;
+font-family: Georgia,Times,serif;
+font-style: normal;
+color: rgb(0,204,102);
+}
+.anthem{
+position: relative;
+top: -110px;
+left: 1050px;
+color: black;
+font-family: Georgia,Times,serif;
+font-style: normal;
+}
+.audio{
+	position: relative;
+top: -100px;
+left: 980px;
+}
+.des1{
+position: relative;
+top: -260px;
+left: 80px;
+width: 800px;
+line-height: 1.5em;
+font-size: 12pt;
+font-family: Baskerville Old Face;
+text-indent: 50px;
+}
+.des2{
+position: relative;
+top: -240px;
+left: 80px;
+width: 800px;
+line-height: 1.5em;
+font-size: 12pt;
+font-family: Baskerville Old Face;
+}
+.des3{
+position: relative;
+top: -220px;
+left: 80px;
+width: 800px;
+line-height: 1.5em;
+font-size: 12pt;
+font-family: Baskerville Old Face;
+}
+.hr2{
+	position: relative;
+    width: 90%;
+}
+.fact{
+	position: relative;
+top: -100px;
+left: 90px;
+font-family: cursive;
+font-size: 18pt;
+font-style: oblique;
+}
+.table{
+	position: relative;
+top: -30px;
+left: 130px;
+}
+
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+	font-size: 11pt;
+	font-family: cursive;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+	width: 200px;
+}
+table th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+table tr:first-child th:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+table tr:first-child th:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+table tr{
+	text-align: center;
+	padding-left:20px;
+}
+table td{
+	width: 300px;
+}
+table tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+	
+}
+table tr td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table tr.even td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table tr:last-child td{
+	border-bottom:0;
+}
+table tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}

@@ -1,0 +1,82 @@
+body{
+  background:url(Images\\backlogin.jpg);
+}
+.form{
+02
+    background:#f1f1f1; width:470px; margin:0 auto; padding-left:50px; padding-top:20px;
+03
+}
+04
+.form fieldset{border:0px; padding:0px; margin:0px;}
+05
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+06
+ 
+07
+.form input[type="text"] { width: 400px; }
+08
+.form input[type="email"] { width: 400px; }
+09
+.forminput[type="password"] { width: 400px; }
+10
+.form input.birthday{width:60px;}
+11
+.form input.birthyear{width:120px;}
+12
+.form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+13
+.form label.month {width: 135px;}
+14
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+15
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+16
+.form .select-style {
+17
+  -webkit-appearance: button;
+18
+  -webkit-border-radius: 2px;
+19
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+20
+  -webkit-padding-end: 20px;
+21
+  -webkit-padding-start: 2px;
+22
+  -webkit-user-select: none;
+23
+  background-image: url(images/select-arrow.png),
+24
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+25
+  background-position: center right;
+26
+  background-repeat: no-repeat;
+27
+  border: 0px solid #FFF;
+28
+  color: #555;
+29
+  font-size: inherit;
+30
+  margin: 0;
+31
+  overflow: hidden;
+32
+  padding-top: 5px;
+33
+  padding-bottom: 5px;
+34
+  text-overflow: ellipsis;
+35
+  white-space: nowrap;}
+36
+.form .gender {
+37
+  width:410px;
+38
+  }
+39
+.form input.buttom{ background: #4b8df9; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+40
+.form input.buttom:hover    { background-color: #2a78f6; }

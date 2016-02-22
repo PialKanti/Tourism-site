@@ -1,0 +1,22 @@
+body{
+	background: url("../Images/blur_22834.jpg") no-repeat;
+	background-size: cover;
+}
+.re{
+	position: absolute;
+top:180px;
+left: 80px;
+color: #6ac045;
+font-family: Baskerville Old Face;
+font-style: oblique;
+font-size: 14pt;
+}
+.re1{
+	position: absolute;
+top:220px;
+left: 80px;
+color: #6ac045;
+font-family: Baskerville Old Face;
+font-style: oblique;
+font-size: 14pt;
+}

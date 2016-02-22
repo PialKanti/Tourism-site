@@ -1,0 +1,56 @@
+.loc{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	font-family: Baskerville Old Face;
+    font-style: oblique;
+    font-size: 13pt;
+    text-indent: 25px;
+}
+.sp{
+	font-family: cooper black;
+	font-size: 14pt;
+	 font-style: normal;
+	 text-indent: 0px;
+}
+.loc1{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	font-family: Baskerville Old Face;
+    font-style: oblique;
+    font-size: 13pt;
+    text-indent: 25px;
+}
+.sp1{
+	font-family: cooper black;
+	font-size: 14pt;
+	 font-style: normal;
+	 text-indent: 0px;
+}
+#googleMap{
+	position: absolute;
+	top: 150px;
+	left: 190px;
+	width:860px;
+	height:560px;
+}
+.credit{
+	position: absolute;
+	top:730px;
+	right: 150px;
+	font-family: Baskerville Old Face;
+	font-size: 13pt;
+}
+.b1{
+position: absolute;
+top: 780px;
+left: 500px;
+width: 200px;
+height: 35px;
+font-size: 13pt;
+background: #252525; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-family:Verdana, Geneva, sans-serif;
+}
+.b1:hover{
+	background: #515151;
+}

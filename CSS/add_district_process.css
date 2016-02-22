@@ -1,0 +1,19 @@
+#background{
+	position:fixed;
+top: 0;
+left: 0;
+width: 100%;
+ height: 100%;
+}
+#success p{
+	margin-top: 100px;
+	margin-left: 100px;
+	color: #6ac045;
+	font-family: cursive;
+}
+#unsuccess p{
+	margin-top: 100px;
+	margin-left: 100px;
+	color: red;
+	font-family: cursive;
+}
