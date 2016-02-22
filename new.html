@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<style type="text/css">
+	body {
+    margin:0px;
+    padding: 0px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 72px;
+    line-height: 108px;
+    height: 108px;
+    background: #335C7D;
+    color: #fff;
+    font-family:'PT Sans', sans-serif;
+}
+header.sticky {
+    font-size: 24px;
+    line-height: 12px;
+    height: 48px;
+    background: #efc47D;
+    text-align: left;
+    padding-left: 20px;
+}
+.big-box {
+    width: 100%;
+    height: 800px;
+}
+	</style>
+	<script type="text/javascript">
+	$(window).scroll(function () {
+    if ($(this).scrollTop() > 1) {
+        $('header').addClass("sticky");
+    } else {
+        $('header').removeClass("sticky");
+    }
+});
+	</script>
+</head>
+<body>
+	<header>Sticky Header</header>
+     <div class="big-box"></div>
+
+</body>
+</html>

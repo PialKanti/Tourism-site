@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet"  href="css/practice.css" />
+	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+       var image1=new Image()
+       image1.src="images\\5014104647_5edc4ee9f1_b (Copy).jpg"
+       var image2=new Image()
+       image2.src="images\\3785029167_a32d5c7775_b (Copy).jpg"
+       var image3=new Image()
+       image3.src="images\\5114543735_1f8afb7d19_b (Copy).jpg"
+</script>
+</head>
+<body>
+<div class="container">
+<div class="header">Welcome to Bangladesh</div>
+<nav>
+	<ul class="clearfix">
+		<li><a href="#">Link 1</a></li>
+		<li><a href="#">Link 2</a></li>
+		<li><a href="#">Link 3</a></li>
+		<li><a href="#">Link 4</a></li>
+		<li><a href="#">Link 5</a></li>
+	</ul>
+</nav>
+ <div id="slider">
+      <img src="Images\\3785029167_a32d5c7775_b (Copy).jpg" name="slide" height="550" width=auto>
+<script type="text/javascript">
+var step=1
+function slideit(){
+document.images.slide.src=eval("image"+step+".src")
+if(step<3)
+step++
+else
+step=1
+setTimeout("slideit()",2500)
+}
+slideit();
+</script>
+      </div>
+      <span id="text"><p id ="txt">Your journey is about to start</p></span>
+</div>
+</body>
+</html>

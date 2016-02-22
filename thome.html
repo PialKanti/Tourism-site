@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="thome.css">
+<script>
+var pagetop, menu, yPos;
+function yScroll(){
+	pagetop = document.getElementById('pagetop');
+	menu = document.getElementById('menu');
+	yPos = window.pageYOffset;
+	if(yPos > 150){
+		pagetop.style.height = "36px";
+		pagetop.style.paddingTop = "8px";
+		menu.style.height = "0px";
+	} else {
+		pagetop.style.height = "120px";
+		pagetop.style.paddingTop = "50px";
+		menu.style.height = "50px";
+	}
+}
+window.addEventListener("scroll", yScroll);
+</script>
+</head>
+<body>
+<div id="menu">
+  <span id="H1"><h1>Welcome to Bangladesh</h1></span>
+        <span id="H2"><h2>Land of beautiful stories...</h2></span>
+        <span id="sin"><p>Sign In</p></span>
+  <div id="pagetop">menu system</div>
+</div>
+<div id="wrapper">
+<script> 
+    for(var i = 0; i < 40; i++){ document.write("<h2>"+(i+1)+". Dummy page content ... </h2>"); }
+</script>
+</div>
+</body>
+</html>
