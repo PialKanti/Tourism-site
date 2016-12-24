@@ -18,6 +18,8 @@ This was a web project developed for Final project show of my university. User c
 * [HTML](https://www.w3.org/html/) 
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
 * [Php](http://php.net/manual/en/intro-whatis.php) 
+* [JavaScript](https://www.javascript.com/) 
+* [AJAX](https://www.javascript.com/https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
 ## Demos
 ![Home page](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/img/Screenshot%20(1).png)
@@ -25,3 +27,9 @@ This was a web project developed for Final project show of my university. User c
 ![Home page](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/img/Screenshot%20(2).png)
 
 ![Tousrism spots](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/img/Screenshot%20(3).png)
+
+![Tousrism spots](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/Screenshot%20(4).png)
+
+![Tousrism spots](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/Screenshot%20(5).png)
+
+![Tousrism spots](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/Screenshot%20(6).png)
