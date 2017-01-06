@@ -21,8 +21,10 @@ This was a web project developed for Final project show of my university. User c
 * [JavaScript](https://www.javascript.com/) 
 * [AJAX](https://www.javascript.com/https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
+## Page link
+[tourismbd.000webhostapp.com](http://tourismbd.000webhostapp.com/)
+
 ## Demos
- ###### [Visit page](http://tourismbd.000webhostapp.com/)
  
 ![Home page](https://raw.githubusercontent.com/PialKanti/Tourism-site/master/img/Screenshot%20(1).png)
 
