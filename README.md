@@ -21,8 +21,8 @@ This was a web project developed for Final project show of my university. User c
 * [JavaScript](https://www.javascript.com/) 
 * [AJAX](https://www.javascript.com/https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
-## Page link
- - Click [here] to see live demo(http://tourismbd.000webhostapp.com/)
+## Website link
+ - Click [here](http://tourismbd.000webhostapp.com/) to see live demo
 
 ## Demos
  
