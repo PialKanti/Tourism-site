@@ -22,7 +22,7 @@ This was a web project developed for Final project show of my university. User c
 * [AJAX](https://www.javascript.com/https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started)
 
 ## Page link
-[tourismbd.000webhostapp.com](http://tourismbd.000webhostapp.com/)
+ - Click [here] to see live demo(http://tourismbd.000webhostapp.com/)
 
 ## Demos
  
